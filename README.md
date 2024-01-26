@@ -11,6 +11,8 @@ This application was not built Responsive.
 
 ## Rundown of application capabilities
 The frontend shows four buttons where a function gets executed:
+![Screenshot 2024-01-26 at 10 09 17](https://github.com/fyip-TeamDS/Contact-Manager-Freshdesk/assets/157478176/7ac8cb4b-1057-4c5c-bc6c-bde2fbd565eb)
+
 ##### Contacts + No Company + No Job title
 This function filters for **inactive** contacts where company_id and job_title is null.
 ##### Contacts + Company
