@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FreskDesk Dashboard</title>
+  </head>
+  <body>
+    <h1>Contact Management</h1>
+    <div class="button-box">
+      <button class="btn retrieve-btn" onclick="retrieveContacts()">
+        Retrieve Inactive + No Company + No Job Title
+      </button>
+      <button class="btn retrieve-btn-two" onclick="retrieveContactsCompany()">
+        Retrieve Inactive + Company
+      </button>
+      <button class="retrieve-btn-three" onclick="retrieveContactsTitle()">
+        Retrieve Inactive + Job Title
+      </button>
+      <button class="delete-btn" onclick="deleteSelectedContacts()">
+        Delete Selected Contacts
+      </button>
+    </div>
+    <br />
+    <p id="contactCount"></p>
+    <p id="pageFetch"></p>
+    <hr />
+    <div class="checkbox-box">
+      <input
+        type="checkbox"
+        id="selectAll"
+        size="100"
+        onchange="selectAllContacts()"
+      />
+      <label for="selectAll" class="select-all">Select All</label>
+    </div>
+
+    <div id="contactsContainer">
+      <h2>Filtered Contacts</h2>
+      <table id="contactsTable">
+        <thead>
+          <tr>
+            <th>Select</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Company_id</th>
+            <th>Job_Title</th>
+            <th>State</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

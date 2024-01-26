@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  max-width: 100vw;
+  margin: 3rem;
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 1.2rem;
+}
+.button-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.checkbox-box {
+  margin: 2rem 1rem 1rem;
+}
+
+.select-all {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+#selectAll {
+  transform: scale(2.5);
+  margin-right: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  height: 4rem;
+  width: calc(94vw / 3);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.btn {
+  margin-right: 1rem;
+}
+
+.retrieve-btn {
+  background-color: burlywood;
+}
+
+.retrieve-btn-two {
+  background-color: rgb(253, 191, 111);
+}
+
+.retrieve-btn-three {
+  background-color: rgb(244, 141, 7);
+}
+
+.delete-btn {
+  background-color: chartreuse;
+}
+
+.delete-btn:hover,
+.retrieve-btn:hover,
+.retrieve-btn-two:hover,
+.retrieve-btn-three:hover {
+  background-color: crimson;
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+th {
+  background-color: #aed1a7;
+}
+
+p {
+  font-size: 1.5rem;
+}
